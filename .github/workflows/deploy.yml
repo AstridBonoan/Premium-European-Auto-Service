@@ -40,6 +40,9 @@ jobs:
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
+      # GitHub Pages serves 404.html for unknown paths while keeping the URL,
+      # so copying index.html enables React Router refreshes on /about, etc.
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:

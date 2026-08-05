@@ -119,6 +119,10 @@ base: '/Premium-European-Auto-Service/'
 
 This ensures assets resolve correctly under the repository subdirectory on GitHub Pages.
 
+### SPA routing on refresh
+
+The build copies `index.html` to `404.html`. GitHub Pages serves that file for client routes like `/about`, so React Router keeps working after a reload.
+
 ### Automatic deployment
 
 The workflow at `.github/workflows/deploy.yml`:
