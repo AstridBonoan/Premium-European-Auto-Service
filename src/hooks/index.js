@@ -1,1 +1,1 @@
-export { useScrollProgress, useTheme, useReducedMotion, usePageTitle } from './useScrollProgress';
+export { useScrollProgress, useReducedMotion, usePageTitle } from './useScrollProgress';

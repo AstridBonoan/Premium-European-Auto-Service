@@ -3,15 +3,12 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 import Navbar from '../components/layout/Navbar';
-import { ThemeProvider } from '../hooks/ThemeContext';
 
 function renderNavbar() {
   return render(
-    <ThemeProvider>
-      <MemoryRouter>
-        <Navbar />
-      </MemoryRouter>
-    </ThemeProvider>
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>
   );
 }
 

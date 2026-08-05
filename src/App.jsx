@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from './hooks/ThemeContext';
 import MainLayout from './components/layout/MainLayout';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -17,24 +16,22 @@ export default function App() {
   const basename = import.meta.env.BASE_URL;
 
   return (
-    <ThemeProvider>
-      <BrowserRouter basename={basename}>
-        <Routes>
-          <Route element={<MainLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="services" element={<ServicesPage />} />
-            <Route path="brands" element={<BrandsPage />} />
-            <Route path="packages" element={<PackagesPage />} />
-            <Route path="timeline" element={<TimelinePage />} />
-            <Route path="gallery" element={<GalleryPage />} />
-            <Route path="testimonials" element={<TestimonialsPage />} />
-            <Route path="booking" element={<BookingPage />} />
-            <Route path="contact" element={<ContactPage />} />
-            <Route path="portal" element={<PortalPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </ThemeProvider>
+    <BrowserRouter basename={basename}>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="services" element={<ServicesPage />} />
+          <Route path="brands" element={<BrandsPage />} />
+          <Route path="packages" element={<PackagesPage />} />
+          <Route path="timeline" element={<TimelinePage />} />
+          <Route path="gallery" element={<GalleryPage />} />
+          <Route path="testimonials" element={<TestimonialsPage />} />
+          <Route path="booking" element={<BookingPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="portal" element={<PortalPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

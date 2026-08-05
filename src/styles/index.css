@@ -21,11 +21,6 @@
     @apply bg-offwhite font-body text-ink antialiased;
   }
 
-  .dark body,
-  html.dark body {
-    @apply bg-matte text-silver;
-  }
-
   *:focus-visible {
     @apply outline-2 outline-offset-2 outline-gold;
   }
@@ -67,32 +62,12 @@
     @apply border border-silver/40 bg-white transition duration-300 hover:border-gold/50 hover:shadow-[0_20px_50px_-24px_rgba(17,17,17,0.35)];
   }
 
-  .dark .card-premium {
-    @apply border-carbon bg-carbon text-silver;
-  }
-
-  .dark .section-heading {
-    @apply text-offwhite;
-  }
-
-  .dark .section-sub {
-    @apply text-silver/80;
-  }
-
   .input-field {
     @apply w-full border border-silver/60 bg-white px-4 py-3 font-body text-sm text-ink placeholder:text-ink/40 transition focus:border-gold;
   }
 
-  .dark .input-field {
-    @apply border-carbon bg-matte text-silver placeholder:text-silver/40;
-  }
-
   .label-field {
     @apply mb-2 block font-body text-xs font-semibold uppercase tracking-[0.15em] text-ink/70;
-  }
-
-  .dark .label-field {
-    @apply text-silver/70;
   }
 }
 

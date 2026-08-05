@@ -29,7 +29,6 @@ After GitHub Pages is enabled, the site will be available at:
 - Appointment booking form with validation
 - Gallery / service / brand filtering
 - Animated statistics, page transitions, and scroll progress
-- Dark mode toggle
 - Client portal mockup (service history + digital inspection preview)
 - Floating Book Service CTA
 - GitHub Pages deployment via GitHub Actions (`gh-pages` branch)

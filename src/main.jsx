@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client';
 import './styles/index.css';
 import App from './App.jsx';
 
+document.documentElement.classList.remove('dark');
+localStorage.removeItem('apex-theme');
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
