@@ -60,7 +60,7 @@ export const galleryItems = [
     title: 'Oil Service Ritual',
     category: 'Maintenance',
     image:
-      'https://images.unsplash.com/photo-1632823469668-6a1e4d8596f3?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1000&q=80',
     alt: 'Engine bay during oil maintenance service',
   },
   {
@@ -92,7 +92,7 @@ export const galleryItems = [
     title: 'Scheduled Care',
     category: 'Maintenance',
     image:
-      'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=1000&q=80',
     alt: 'Vehicle during scheduled maintenance',
   },
   {
@@ -108,7 +108,7 @@ export const galleryItems = [
     title: 'Suspension Geometry',
     category: 'Repairs',
     image:
-      'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=80',
     alt: 'Suspension component repair',
   },
   {
@@ -124,7 +124,7 @@ export const galleryItems = [
     title: 'Filter & Fluid Exchange',
     category: 'Maintenance',
     image:
-      'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=1000&q=80',
     alt: 'Technician performing fluid maintenance',
   },
   {
@@ -132,7 +132,7 @@ export const galleryItems = [
     title: 'Evening Atelier',
     category: 'Facility',
     image:
-      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1000&q=80',
     alt: 'Workshop atmosphere with luxury vehicle',
   },
   {
@@ -140,7 +140,7 @@ export const galleryItems = [
     title: 'Completed Transmission',
     category: 'Repairs',
     image:
-      'https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1000&q=80',
     alt: 'Completed drivetrain repair',
   },
   {
@@ -148,7 +148,7 @@ export const galleryItems = [
     title: 'ECU Calibration',
     category: 'Performance',
     image:
-      'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1000&q=80',
     alt: 'Performance ECU tuning session',
   },
   {
@@ -156,7 +156,7 @@ export const galleryItems = [
     title: 'Concierge Delivery',
     category: 'Maintenance',
     image:
-      'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1000&q=80',
     alt: 'Vehicle ready for client delivery',
   },
 ];

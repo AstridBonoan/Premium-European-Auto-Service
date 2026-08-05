@@ -110,7 +110,7 @@ export const brands = [
     ],
     specialty: 'F-Type performance and electronic module programming.',
     image:
-      'https://images.unsplash.com/photo-1553440569-bcc63803a379?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1000&q=80',
   },
   {
     id: 'land-rover',
