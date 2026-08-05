@@ -76,15 +76,25 @@ export const faqs = [
   },
 ];
 
-export const navLinks = [
-  { to: '/', label: 'Home' },
+export const primaryNavLinks = [
   { to: '/about', label: 'About' },
   { to: '/services', label: 'Services' },
   { to: '/brands', label: 'Brands' },
   { to: '/packages', label: 'Packages' },
-  { to: '/timeline', label: 'Planner' },
   { to: '/gallery', label: 'Gallery' },
-  { to: '/testimonials', label: 'Testimonials' },
-  { to: '/booking', label: 'Booking' },
   { to: '/contact', label: 'Contact' },
+];
+
+export const secondaryNavLinks = [
+  { to: '/timeline', label: 'Planner' },
+  { to: '/testimonials', label: 'Testimonials' },
+  { to: '/portal', label: 'Client Portal' },
+];
+
+/** Full set for mobile drawer and footer */
+export const navLinks = [
+  { to: '/', label: 'Home' },
+  ...primaryNavLinks,
+  ...secondaryNavLinks,
+  { to: '/booking', label: 'Booking' },
 ];

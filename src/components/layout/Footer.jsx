@@ -21,18 +21,13 @@ export default function Footer() {
             Explore
           </h2>
           <ul className="mt-4 space-y-2">
-            {navLinks.slice(0, 6).map((link) => (
+            {navLinks.map((link) => (
               <li key={link.to}>
                 <Link to={link.to} className="text-sm transition hover:text-gold">
                   {link.label}
                 </Link>
               </li>
             ))}
-            <li>
-              <Link to="/portal" className="text-sm transition hover:text-gold">
-                Client Portal
-              </Link>
-            </li>
           </ul>
         </div>
 

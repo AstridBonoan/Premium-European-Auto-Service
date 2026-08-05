@@ -21,8 +21,8 @@ describe('Navbar', () => {
   it('includes primary navigation links', () => {
     renderNavbar();
     expect(screen.getByRole('navigation', { name: /primary/i })).toBeInTheDocument();
-    expect(screen.getAllByRole('link', { name: /services/i }).length).toBeGreaterThan(0);
-    expect(screen.getAllByRole('link', { name: /booking/i }).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole('link', { name: /^services$/i }).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole('link', { name: /book service/i }).length).toBeGreaterThan(0);
   });
 
   it('toggles the mobile menu', async () => {
